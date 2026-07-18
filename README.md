@@ -1,3 +1,5 @@
+Production target: AWS (ECS/IoT Core) · TimescaleDB (Postgres) for time-series · Redis for hot-path caching. Runs locally on SQLite + Mosquitto for zero-setup demo.
+
 # IIoT Telemetry Ingestion Service
 
 A backend microservice that ingests **industrial sensor telemetry over MQTT**, validates and
